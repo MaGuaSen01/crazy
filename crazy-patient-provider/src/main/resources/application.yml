@@ -3,3 +3,5 @@ server:
 spring:
   application:
     name: crazy-patient-provider
+  profiles:
+    active: commons
