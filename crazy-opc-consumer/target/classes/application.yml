@@ -1,8 +1,8 @@
 server:
-  port: 9999
+  port: 7777
 spring:
   application:
-    name: crazy-register
+    name: crazy-opc-consumer
 eureka:
   instance:
     hostname: localhost
