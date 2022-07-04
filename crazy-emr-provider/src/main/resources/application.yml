@@ -1,0 +1,13 @@
+server:
+  port: 6665
+spring:
+  application:
+    name: crazy-emr-provider
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: data
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
