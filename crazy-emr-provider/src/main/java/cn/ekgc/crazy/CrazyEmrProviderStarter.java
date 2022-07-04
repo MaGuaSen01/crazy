@@ -4,11 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-
-@SpringBootApplication
 @EnableEurekaClient
-public class CrazyOpcProviderStarter {
+@SpringBootApplication
+public class CrazyEmrProviderStarter {
 	public static void main(String[] args) {
-		SpringApplication.run(CrazyOpcProviderStarter.class, args);
+		SpringApplication.run(CrazyEmrProviderStarter.class,args);
 	}
 }

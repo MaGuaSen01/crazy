@@ -1,7 +1,5 @@
 server:
-  port: 8888
+  port: 9999
 spring:
   application:
     name: crazy-patient-consumer
-  profiles:
-    active: commons
