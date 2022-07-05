@@ -4,7 +4,12 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-
+/**
+ * <b>项目基础实体类</b>
+ *
+ * @author ASUS
+ * @data 2022/7/12
+ */
 @Data
 public class BaseEntity implements Serializable {
     private String status;              //系统状态：Y-启用，N-禁用

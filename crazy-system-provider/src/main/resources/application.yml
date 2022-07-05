@@ -1,0 +1,7 @@
+server:
+  port: 5554
+spring:
+  application:
+    name: crazy-system-provider
+  profiles:
+    active: commons, data

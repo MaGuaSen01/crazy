@@ -4,4 +4,4 @@ spring:
   application:
     name: crazy-patient-provider
   profiles:
-    active: commons
+    active: commons, data

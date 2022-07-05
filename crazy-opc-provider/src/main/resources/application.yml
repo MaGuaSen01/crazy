@@ -3,11 +3,5 @@ server:
 spring:
   application:
     name: crazy-opc-crazy
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+  profiles:
+    active: commons, data

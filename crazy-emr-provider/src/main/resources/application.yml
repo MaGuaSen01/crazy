@@ -3,11 +3,5 @@ server:
 spring:
   application:
     name: crazy-emr-provider
-  main:
-    allow-bean-definition-overriding: true
   profiles:
-    active: data
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8888/eureka
+    active: commons, data
