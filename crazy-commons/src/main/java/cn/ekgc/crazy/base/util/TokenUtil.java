@@ -22,7 +22,7 @@ public class TokenUtil implements Serializable  {
 
     /**
      * <b>根据所给定的信息生成touken</b>
-     * @param vlue
+     * @param value
      * @param expireSec
      * @return
      * @throws Exception
