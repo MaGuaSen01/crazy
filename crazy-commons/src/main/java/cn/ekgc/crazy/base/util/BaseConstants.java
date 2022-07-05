@@ -58,4 +58,6 @@ public class BaseConstants {
      * <b>系统响应码: 系统响应异常</b>
      */
     public static final Integer BASE_RESPONSE_EXCEPTION = Integer.parseInt(props.getProperty("base.response.exception"));
+
+    public static final String BASE_TOKEN_SECRET = props.getProperty("base.token.SECRET");
 }
