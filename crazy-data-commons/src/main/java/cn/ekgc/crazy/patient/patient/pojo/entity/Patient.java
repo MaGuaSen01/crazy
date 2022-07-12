@@ -2,6 +2,7 @@ package cn.ekgc.crazy.patient.patient.pojo.entity;
 
 import cn.ekgc.crazy.base.pojo.entity.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.util.Date;
 
@@ -12,6 +13,7 @@ import java.util.Date;
  * @data 2022/7/12
  */
 @TableName("pa_patient")
+@Data
 public class Patient extends BaseEntity {
     private String id;                           //主键
     private String emrNo;                       //病历号
