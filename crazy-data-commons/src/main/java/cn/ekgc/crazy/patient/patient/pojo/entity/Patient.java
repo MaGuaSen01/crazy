@@ -3,6 +3,8 @@ package cn.ekgc.crazy.patient.patient.pojo.entity;
 import cn.ekgc.crazy.base.pojo.entity.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
 
+import java.util.Date;
+
 /**
  * <b>疯狂智慧医疗系统-病人实体类</b>
  *
@@ -17,8 +19,8 @@ public class Patient extends BaseEntity {
     private String cellphone;                   //手机号码
     private String cerCat;                      //证件类型
     private String cerNo;                       //证件号码
-    private String cerEffDate;                  //证件生效日期
-    private String cerExpDate;                  //证件失效日期
+    private Date cerEffDate;                    //证件生效日期
+    private Date cerExpDate;                    //证件失效日期
     private String cerOfferOrg;                 //证件提供机构
     private String aboBloodType;                //ABO血型
     private String rhBloodType;                 //RH血型
