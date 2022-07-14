@@ -1,7 +1,0 @@
-server:
-  port: 6666
-spring:
-  application:
-    name: crazy-emr-consumer
-  profiles:
-    active: commons

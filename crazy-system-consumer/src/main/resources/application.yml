@@ -1,7 +1,0 @@
-server:
-  port: 5555
-spring:
-  application:
-    name: crazy-system-consumer
-  profiles:
-    active: commons

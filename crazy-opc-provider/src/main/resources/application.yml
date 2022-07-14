@@ -1,7 +1,0 @@
-server:
-  port: 7776
-spring:
-  application:
-    name: crazy-opc-crazy
-  profiles:
-    active: commons, data

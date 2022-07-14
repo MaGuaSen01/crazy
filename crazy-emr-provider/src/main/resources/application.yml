@@ -1,7 +1,0 @@
-server:
-  port: 6665
-spring:
-  application:
-    name: crazy-emr-provider
-  profiles:
-    active: commons, data

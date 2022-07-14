@@ -1,7 +1,0 @@
-server:
-  port: 7777
-spring:
-  application:
-    name: crazy-opc-consumer
-  profiles:
-    active: commons
