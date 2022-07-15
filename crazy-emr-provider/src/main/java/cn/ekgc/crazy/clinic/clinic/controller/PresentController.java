@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @author ASUS
  * @data 2022/7/15
  */
-@RestController("allergyController")
-public class AllergyController  extends BaseController {
+@RestController("presentController")
+public class PresentController extends BaseController {
 }
